@@ -171,6 +171,13 @@ h1 {
         opacity: 0;
 }
 
+audio {
+    position: relative;
+    bottom: -20px;
+    width: 200px;
+    height: 30px;
+}
+
 /* animasi */
 
 @keyframes fade{

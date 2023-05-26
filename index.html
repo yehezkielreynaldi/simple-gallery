@@ -10,10 +10,6 @@
 
   <body>
     <h1>Our Gallery</h1>
-    <audio
-      src="Assets/One-Direction-Little-Things-(TrendyBeatz.com).mp3"
-      autoplay="autoplay"
-    ></audio>
     <div class="container">
       <ul class="gallery">
         <li>
@@ -66,6 +62,14 @@
             <a href="#gambar-1" class="next">Next</a>
           </div>
         </li>
+        <audio controls autoplay>
+          <source
+            src="One-Direction-Little-Things-(TrendyBeatz.com).mp3"
+            type="audio/mpeg"
+          />
+          <!--Tulisan akan muncul jika tak ada file yang didukung oleh browser -->
+          <p>Audio tidak disupport browser</p>
+        </audio>
         <div class="clear"></div>
       </ul>
     </div>
